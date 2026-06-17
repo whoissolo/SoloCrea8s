@@ -167,6 +167,7 @@ input, select, textarea {
 		font-size: 3.25em;
 		letter-spacing: -0.025em;
 		font-weight: 300;
+		line-height: 1.325em;
 	}
 
 		h1 strong {
@@ -2125,6 +2126,10 @@ input, select, textarea {
 
 			#top .image img {
 				border-radius: 100%;
+			width: 100%;
+    		height: 100%;
+    		object-fit: cover;
+    		object-position: center 50%;	
 			}
 
 		#top h1 {
